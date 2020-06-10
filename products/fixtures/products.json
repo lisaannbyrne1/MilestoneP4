@@ -1,0 +1,41 @@
+[
+  {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Blackleg Injection",
+      "description": "Black Leg is for the active immunisation of cattle against diseases caused by Cl. chauvoei, Cl. septicum, Cl. novyi and Cl. tetani. A serological response to Cl. haemolyticum is induced in susceptible cattle, but efficacy of this component has not been demonstrated in cattle. It is applied at 2ml per animal.",
+      "price": 27.50,
+      "category": 2,
+      "image_url": "",
+      "image": "blackleg.jpg"
+    }
+  },
+  {
+    "pk": 2,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001600425",
+      "name": "JFC Gate/Fence Feeder - Single",
+      "description": "JFC Gate/Fence Feeder - Single is suitable for cattle, sheep, horses, pigs and goats. JFC Gate/Fence Feeder - Single is manufactured from medium density polyethylene which is extremely tough and durable and offers strong resistance to severe impact. The rounded edge design ensures animal safety. The design includes 4 reinforced hangers for easy mounting on a fence, gate or rail and it comes fitted with 2 plastic hooks to provide extra stability and prevent the animal from knocking the feeder JFC Gate/Fence Feeder - Single is suitable for indoor or outdoor use and each feeder has a smooth, seamless finish which helps reduce feed build up and makes cleaning simple.",
+      "price": 46.00,
+      "category": 1,
+      "image_url": "",
+      "image": "jfc_gate_fence_feeder.jpg"
+    }
+  },
+  {
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730010",
+      "name": "Lamb Tag Applicator",
+      "description": "TheLamb tag Applicatoris a manual tag applicator used for applying tags on lambs. It is easy to use and reloads in seconds. Tagging at birth is recommended by the department.",
+      "price": 27.99,
+      "category": 3,
+      "image_url": " ",
+      "image": "lamb_tag_applicator.jpg"
+    }
+  }
+]
