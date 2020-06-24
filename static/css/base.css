@@ -75,15 +75,20 @@ ul.info-items {
 	min-width: 696px;
 	list-style: none;
 	padding-top: 10px;
-    text-align: center;
-	}
-	ul.info-items li {
-		display: inline;  
-        padding: 90px;       
-	}
+    display: inline-block; 
+    align-items: center;
+    width: 100%;
+    
+    
+}
+
+ul.info-items li {
+	display: inline-block;
+    padding-left: 15%;     
+}
 
 #table {
-	display: table; 
+	display: inline-block; 
 	margin: 0 auto;
 }
 
@@ -101,7 +106,7 @@ a:hover {
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
   .container {
-    max-width: 80%;
+    max-width: 70%;
   }
 }
 
@@ -118,6 +123,7 @@ a:hover {
     .header-container {
         padding-top: 164px;
     }
+
 }
 
 /* pad the top a bit when navbar is collapsed on mobile */
@@ -128,5 +134,9 @@ a:hover {
 
     body {
         height: calc(100vh - 116px);
+    }
+
+    #delivery-banner {
+        visibility: hidden;
     }
 }

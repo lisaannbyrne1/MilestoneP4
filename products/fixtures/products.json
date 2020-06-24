@@ -3,39 +3,234 @@
     "pk": 1,
     "model": "products.product",
     "fields": {
-      "sku": "pp5001340155",
-      "name": "Blackleg Injection",
-      "description": "Black Leg is for the active immunisation of cattle against diseases caused by Cl. chauvoei, Cl. septicum, Cl. novyi and Cl. tetani. A serological response to Cl. haemolyticum is induced in susceptible cattle, but efficacy of this component has not been demonstrated in cattle. It is applied at 2ml per animal.",
-      "price": 27.50,
-      "category": 2,
+      "sku": "pp5001800425",
+      "name": "JFC Single Reservoir Corner Water Trough 100L",
+      "description": "JFC Single Reservoir Corner Water Trough 100L is a polyethylene, hard wearing, durable and impact resistant water trough. It is easy to move, install and service. Like all JFC troughs, the JFC Single Reservoir Corner Water Trough 100L  fitted with valves and floats (BVF1). The 22 Gal (100 L) Corner Water Trough is ideally suited for corner slots in pasture or the shed/stable.",
+      "price": 86.00,
+      "category": 1,
       "image_url": "",
-      "image": "blackleg.jpg"
+      "image": "corner_water_trough.jpg"
     }
   },
+   {
+    "pk": 1,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp4001800425",
+      "name": "Bull Holder - Long Handle 19inch",
+      "description": "The Bull Holder Tong is a stainless steel device used on cattle when they are ready for mouthed or drenched. It features long strong body and plastic end gripped handles. The bull holder is inserted into the nostrils and have a rope attached to them which is passed over a beam and the head is pulled up. It is 19'' long and has durable strength to carry out the task.",
+      "price": 32.00,
+      "category": 1,
+      "image_url": "",
+      "image": "bull_holder.jpg"
+    }
+  }, 
   {
-    "pk": 2,
+    "pk": 4,
     "model": "products.product",
     "fields": {
       "sku": "pp5001600425",
       "name": "JFC Gate/Fence Feeder - Single",
       "description": "JFC Gate/Fence Feeder - Single is suitable for cattle, sheep, horses, pigs and goats. JFC Gate/Fence Feeder - Single is manufactured from medium density polyethylene which is extremely tough and durable and offers strong resistance to severe impact. The rounded edge design ensures animal safety. The design includes 4 reinforced hangers for easy mounting on a fence, gate or rail and it comes fitted with 2 plastic hooks to provide extra stability and prevent the animal from knocking the feeder JFC Gate/Fence Feeder - Single is suitable for indoor or outdoor use and each feeder has a smooth, seamless finish which helps reduce feed build up and makes cleaning simple.",
       "price": 46.00,
-      "category": 1,
+      "category": 4,
       "image_url": "",
       "image": "jfc_gate_fence_feeder.jpg"
     }
   },
   {
-    "pk": 3,
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730018",
+      "name": "Lamb Feeder Milk Train",
+      "description": "The Lamb Feeder Milk Train  is a four place milk train suitable for lambs and kids. It is designed to allow you to hang it off a gate, fence with rail hooks or wall brackets meaning that you can leave the lambs to feed while you get on with the rest your days work, saving you valuable time. The Lamb Feeder Milk Train has Little Softy no-leak teats and has a 4ltr total capacity. Each compartment can hold 750ml",
+      "price": 85.00,
+      "category": 4,
+      "image_url": " ",
+      "image": "lamb_feeder.jpg"
+    }
+  },
+    {
+    "pk": 4,
     "model": "products.product",
     "fields": {
       "sku": "pp5001730010",
       "name": "Lamb Tag Applicator",
       "description": "TheLamb tag Applicatoris a manual tag applicator used for applying tags on lambs. It is easy to use and reloads in seconds. Tagging at birth is recommended by the department.",
       "price": 27.99,
-      "category": 3,
+      "category": 4,
       "image_url": " ",
       "image": "lamb_tag_applicator.jpg"
+    }
+  },
+    {
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730010",
+      "name": "JFC Large Personnel Footbath",
+      "description": "TThe JFC Personnel Footbath is a foam pad foot bath for washing of wellintons and boots to prevent the spread of disease. Ideally all farms should have it placed at the entrance or exit of sensitive areas to help prevent the spread of disease and infection.It is suitable for use with the majority of disinfectant solutions. It is fitted with a foam pad insert to reduce the amount of solution required and to reduce spillage.",
+      "price": 85.00,
+      "category": 4,
+      "image_url": " ",
+      "image": "personnel_footbath.jpg"
+    }
+  },
+  {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340155",
+      "name": "Blackleg Injection",
+      "description": "Black Leg is for the active immunisation of cattle against diseases caused by Cl. chauvoei, Cl. septicum, Cl. novyi and Cl. tetani. A serological response to Cl. haemolyticum is induced in susceptible cattle, but efficacy of this component has not been demonstrated in cattle. It is applied at 2ml per animal.",
+      "price": 27.50,
+      "category": 6,
+      "image_url": "",
+      "image": "blackleg.jpg"
+    }
+  },
+   {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5011340155",
+      "name": "Tribovax 10",
+      "description": "Tribovax 10 is a 4 in 1 clostridial vaccine for cattle and sheep for Blackleg, Braxy, Black Disease and Tetanus. Vaccination with Tribovax 10 induces an active immunity that protects the vaccinated animal for a period of up to 12 months. The long duration of immunity of Tribovax 10 ensures that vaccinated animals are protected all the year round and simplifies management procedures on the farm. Lambs and calves can be vaccinated from as young as 2 weeks of age. Vaccinating pregnant animals during the 2-6 weeks prior to parturition transfers immunity via the colostrum to the newborn animals shortly after birth and will protect the young animals for a period of 8-12 weeks. Tribovax 10 has been proven efficacious in the presence of maternally derived antibodies. It is recommended that animals with unknown colostrum status be vaccinated from 2 weeks of age. Those animals from vaccinated mothers and with confirmed colostrum intake should be vaccinated at 8-12 weeks old",
+      "price": 48.50,
+      "category": 6,
+      "image_url": "",
+      "image": "tribovax.jpg"
+    }
+  },
+      {
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340156",
+      "name": "Allsure Sheep Bolus with Copper",
+      "description": "Allsure Sheep Bolus with Copper is a supplementary bolus that supplies sheep and lambs with cobalt selenium, iodine and copper. The boluses are designed to use a slow release leeching system that will slowly release the minerals over a six month period.Allsure Sheep Bolus with Copper boluses are ideal for supplementing sheep that require copper. These boluses can improve your flocks health, performance, vitality and reduce your concentrate use. The Allsure Sheep Bolus with Copper is perfect for use to meet the new sheep scheme pre weaning mineral requirements.",
+      "price": 250.00,
+      "category": 6,
+      "image_url": "",
+      "image": "allsure_sheep.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001780019",
+      "name": "KERBL Mains-Powered Dehorner",
+      "description": "The Kerbl Mains-Powered Dehorner is a stainless steel device used to dehorning young calves. It features soldering tip and ergonomically shaped handle. The Veterinarians prefer to use this device due to its lightweight and very high heat output. The dehorner helps to accomplish the task quickly and easily. Simply place the dehorner over the horn and rotate to make certain the high temperature is applied equally. No loss of blood or severe shock is experienced during or after dehorning. The entire task will last for only few seconds and can be done safely any month of the year.",
+      "price": 89.00,
+      "category": 5,
+      "image_url": " ",
+      "image": "powered_dehorner.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001880019",
+      "name": "Turbo Thrive Milk Replacer",
+      "description": "Turbo Thrive calf milk replacer is a high quality milk replacer suitable for rearing calves of up to six months of age. Turbo Thrive calf milk replacer is produced using very high quality whey milk ingredients, this provides high protein absorption rates which provides high performance in intensive rearing systems. Turbo Thrive calf milk replacer contains 21.5% protein and 18% Oil which is ideal for the economical rearing of calves in Beef and Dairy herds.",
+      "price": 60.00,
+      "category": 5,
+      "image_url": " ",
+      "image": "milk_replacer.jpg"
+    }
+  },
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5007880019",
+      "name": "Arm Length Disposable Gloves",
+      "description": "The Arm Length Disposable Gloves are ideal for use when lambing, calving or inseminating. The Arm Length Disposable Gloves come in packs of 100 and are 90 cm long. The Arm Length Disposable Gloves come in a standard size and are ambidextrous.",
+      "price": 15.00,
+      "category": 5,
+      "image_url": " ",
+      "image": "gloves.jpg"
+    }
+  }, 
+  {
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5007980019",
+      "name": "Duramark Marking Spray",
+      "description": "Duramark Marking Spray is a highly reliable non fade marking spray that can be used for all types ofidentification. Duramark Marking Spray is Ozone friendly and comes in easy to use 400ml cans that are available in green, red and blue.",
+      "price": 60.00,
+      "category": 5,
+      "image_url": " ",
+      "image": "marking_spray.jpg"
+    }
+  },   
+{
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001730019",
+      "name": "All Trace Hi Iodine Bolus (20)",
+      "description": "AllTrace High Iodine Boluses are a mineral supplement for grazing or forage fed cattle that supplies a constant supply of six minerals and three vitamins over a 180 day period. AllTrace High Iodine Boluses help farmers who's herd has an imbalance of iodine which can affect the animals productivity.",
+      "price": 85.00,
+      "category": 6,
+      "image_url": " ",
+      "image": "alltrace.jpg"
+    }
+  },
+    {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340158",
+      "name": "Prima Tech 12.5ml Dose Vaccinator",
+      "description": "The Prima Tech 12.5ml Dose Vaccinator is a robust, versatile dosing gun used for drenching cattle in all environments. The V-shaped injector is easy to handle and makes administration of medication accurate. The reverse dial-a-dose selection allows changes from small to large doses without any product wastage. Squeezing the handle slightly helps to get the desired dosage amount as indicated in the dosage setting window by turning the dosage adjuster. A slight squeezing pressure will help ease dosage adjustment. The pack is supplied with luer lock needle nut, 3 draw off caps (20mm, 30mm and 33mm) and soft medical grade tubing",
+      "price": 46.00,
+      "category": 7,
+      "image_url": "",
+      "image": "prima_tech_dose_vaccinator.jpg"
+    }
+  },
+     {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001340178",
+      "name": "Drencher Gun Genia - 150ml",
+      "description": "The150ml Genia Drencher Gun is a manual gun used for administration of viscous drench liquids. The gun is very simple and effective to use. Once the drench liquid is adjusted, squeeze the trigger and suck the required quantity in. The large bore nozzle helps the liquid to flow through it easily. The Drench can be sterilized with warm water to keep it clean and safe.",
+      "price": 60.00,
+      "category": 7,
+      "image_url": "",
+      "image": "drencher_gun_genia.jpg"
+    }
+  },
+ {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5001348178",
+      "name": "Easy Drencher - 1.2 Litre",
+      "description": "The Easy Drencher is a plastic bottle used for administrating liquid orally for animals. The bottle is a free standing, wide base bottle with an easy grip handle. The side neck opening allows easy filling of liquid and 12cm long safety nozzle allows the animal to adequately swallow during drenching. Place the nozzle in the side of the mouth for easy swallowing.",
+      "price": 20.00,
+      "category": 7,
+      "image_url": "",
+      "image": "easy_drencher.jpg"
+    }
+  },
+   {
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+      "sku": "pp5002348178",
+      "name": "Prima Tech Drench Gun - 70ml",
+      "description": "The Prima Tech 70ml Drench Gun is a high quality dosing gun used for drenching cattle in all environments. The Gun has a shower head nozzle which avoids wastage from splashing, the nozzles are angled for easy administration of medication and the reverse dial-a-dose selection allows changes from large to small doses without any product wastage. Squeezing the handle slightly helps to get the desired dosage amount as indicated in the dosage setting window by turning the dosage adjuster. A slight squeezing pressure will help ease dosage adjustment.",
+      "price": 79.00,
+      "category": 7,
+      "image_url": "",
+      "image": "prima_tech_drench_gun.jpg"
     }
   }
 ]
