@@ -110,11 +110,17 @@
                 {% include 'includes/main_nav.html' %}
             </nav>
         </div>
-        <div id="delivery-banner" class="row text-center">
-            <div class="col bg-black text-white">
-                <h4 class="logo-font my-1">Free delivery on orders over €{{ free_shipping_threshold }}!</h4>                
+        <div id="delivery-banner" class="row text-left">
+            <div class="col bg-black text-white" id="table">
+            <ul class="info-items">
+            <a href=""><li>Free delivery on orders over €{{ free_shipping_threshold }}!</li></a>
+            <a href=""><li>Nationwide Delivery</li></a>
+            <a href=""><li>Click & Collect for Free</li></a>  
+           </ul>  
             </div>            
         </div>
+
+
   </header>
 
     {% if message %}
