@@ -9,7 +9,7 @@
 
     {"pk": 5, "model": "products.category", "fields": {"name": "lambing_cla", "friendly_name": "Lambing/Calving"}}, 
 
-    {"pk": 6, "model": "products.category", "fields": {"name": "minerals_&_supplements_Vaccines", "friendly_name": "Minerals & Supplements/Vaccines"}}, 
+    {"pk": 6, "model": "products.category", "fields": {"name": "minerals_supplements_vaccines", "friendly_name": "Minerals & Supplements/Vaccines"}}, 
 
     {"pk": 7, "model": "products.category", "fields": {"name": "vet_equipment", "friendly_name": "Veterinary Equipment"}}
     
