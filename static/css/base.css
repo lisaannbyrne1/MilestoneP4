@@ -101,6 +101,27 @@ a:hover {
   color: inherit;
 }
 
+/*cateogry badges*/
+
+a.category-badge > span.badge:hover {
+    background: #212529 !important;
+    color: #fff !important;
+}
+
+/*return to top*/
+
+.btt-button {
+    height: 42px;
+    width: 42px;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+}
+
+.btt-link {
+    cursor: pointer;
+}
+
 /* Media Queries*/
 
 /* Slightly larger container on xl screens */

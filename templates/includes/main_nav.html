@@ -35,12 +35,10 @@
         </li>
         <!--In Season Products-->  
         <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black" href="#" id="specials-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="logo-font font-weight-bold nav-link text-black"
+            href="{% url 'products' %}?category=in_season_products" id="specials-link"  aria-haspopup="true" aria-expanded="false">
                 In Season Products
             </a>
-            <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="{% url 'products' %}?category=in_season_products" class="dropdown-item">In Season Prodcuts</a>
-            </div>
         </li>
     </ul>
 </div>
