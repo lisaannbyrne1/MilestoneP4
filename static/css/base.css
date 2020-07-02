@@ -119,7 +119,11 @@ a.category-badge > span.badge:hover {
     right: 10px;
 }
 
-.btt-link {
+/*Update/remove buttons cart*/
+
+.btt-link,
+.update-link,
+.remove-item {
     cursor: pointer;
 }
 
@@ -137,6 +141,7 @@ a.category-badge > span.badge:hover {
     background: black;
     color: white !important;
 }
+
 
 
 /* Media Queries*/
