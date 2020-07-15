@@ -1,3 +1,10 @@
+/*scoll bar for other history */
+.order-history {
+    max-height: 416px; /* height of profile form + submit button */
+    overflow-y: auto;
+}
+
+/*css to control color of form fields */
 #profile-update-form .form-control {
     color: #000;
 }
