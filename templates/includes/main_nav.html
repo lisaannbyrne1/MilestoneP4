@@ -1,45 +1,112 @@
 <!DOCTYPE html>
 <!--All prodcuts-->
 <div class="collapse navbar-collapse" id="main-nav">
-    <ul class="navbar-nav w-auto mx-auto">
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="all-products-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                All Products
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
-                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
-                <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
-            </div>
-        </li>
-        <!--Farming-->
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="clothing-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Farming
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
-                <a href="{% url 'products' %}?category=farming_equipment" class="dropdown-item">Equipment</a>
-                <a href="{% url 'products' %}?category=lambing_cla" class="dropdown-item">Lambing/Calving</a>
-                <a href="{% url 'products' %}?category=farming,farming_equipment,lambing_cla" class="dropdown-item">All Farming</a>
-            </div>
-        </li>
-        <!--Veterinary-->  
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black mr-5" href="#" id="homeware-link" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Veterinary
-            </a>
-            <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
-                <a href="{% url 'products' %}?category=vet_equipment" class="dropdown-item">Equipment</a>
-                <a href="{% url 'products' %}?category=minerals_supplements_vaccines" class="dropdown-item">Minerals &amp; Supplements/Vaccines</a>
-                <a href="{% url 'products' %}?category=veterinary,vet_equipment,minerals_supplements_vaccines" class="dropdown-item">All Veterinary</a>
-            </div>
-        </li>
-        <!--In Season Products-->  
-        <li class="nav-item dropdown">
-            <a class="logo-font font-weight-bold nav-link text-black"
-            href="{% url 'products' %}?category=in_season_products" id="specials-link"  aria-haspopup="true" aria-expanded="false">
-                In Season Products
-            </a>
-        </li>
-    </ul>
+  <ul class="navbar-nav w-auto mx-auto">
+    <li class="nav-item d-block d-md-none">
+      <a
+        class="logo-font font-weight-bold nav-link text-black mr-5"
+        href="{% url 'home' %}"
+        id="home-link"
+      >
+        Home
+      </a>
+    </li>
+    <li class="nav-item dropdown">
+      <a
+        class="logo-font font-weight-bold nav-link text-black mr-5"
+        href="#"
+        id="all-products-link"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        All Products
+      </a>
+      <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
+        <a
+          href="{% url 'products' %}?sort=price&direction=asc"
+          class="dropdown-item"
+          >By Price</a
+        >
+        <a
+          href="{% url 'products' %}?sort=category&direction=asc"
+          class="dropdown-item"
+          >By Category</a
+        >
+        <a href="{% url 'products' %}" class="dropdown-item">All Products</a>
+      </div>
+    </li>
+    <!--Farming-->
+    <li class="nav-item dropdown">
+      <a
+        class="logo-font font-weight-bold nav-link text-black mr-5"
+        href="#"
+        id="clothing-link"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Farming
+      </a>
+      <div class="dropdown-menu border-0" aria-labelledby="clothing-link">
+        <a
+          href="{% url 'products' %}?category=farming_equipment"
+          class="dropdown-item"
+          >Equipment</a
+        >
+        <a
+          href="{% url 'products' %}?category=lambing_cla"
+          class="dropdown-item"
+          >Lambing/Calving</a
+        >
+        <a
+          href="{% url 'products' %}?category=farming,farming_equipment,lambing_cla"
+          class="dropdown-item"
+          >All Farming</a
+        >
+      </div>
+    </li>
+    <!--Veterinary-->
+    <li class="nav-item dropdown">
+      <a
+        class="logo-font font-weight-bold nav-link text-black mr-5"
+        href="#"
+        id="homeware-link"
+        data-toggle="dropdown"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        Veterinary
+      </a>
+      <div class="dropdown-menu border-0" aria-labelledby="homeware-link">
+        <a
+          href="{% url 'products' %}?category=vet_equipment"
+          class="dropdown-item"
+          >Equipment</a
+        >
+        <a
+          href="{% url 'products' %}?category=minerals_supplements_vaccines"
+          class="dropdown-item"
+          >Minerals &amp; Supplements/Vaccines</a
+        >
+        <a
+          href="{% url 'products' %}?category=veterinary,vet_equipment,minerals_supplements_vaccines"
+          class="dropdown-item"
+          >All Veterinary</a
+        >
+      </div>
+    </li>
+    <!--In Season Products-->
+    <li class="nav-item dropdown">
+      <a
+        class="logo-font font-weight-bold nav-link text-black"
+        href="{% url 'products' %}?category=in_season_products"
+        id="specials-link"
+        aria-haspopup="true"
+        aria-expanded="false"
+      >
+        In Season Products
+      </a>
+    </li>
+  </ul>
 </div>
