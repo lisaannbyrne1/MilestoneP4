@@ -26,6 +26,7 @@ class UserProfile(models.Model):
 
 @receiver(post_save, sender=User)
 def create_or_update_user_profile(sender, instance, created, **kwargs):
+    print("profile post save signal triggered")
     """
     Create or update the user profile
     """
@@ -33,3 +34,6 @@ def create_or_update_user_profile(sender, instance, created, **kwargs):
         UserProfile.objects.create(user=instance)
     # Existing users: just save the profile
     instance.userprofile.save()
+
+    print("profile post save signal complete")
+
