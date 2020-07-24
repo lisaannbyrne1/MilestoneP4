@@ -325,20 +325,6 @@ footer {
   background: #007bb5;
   color: white;
 }
-/* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
-  .fixed-top-desktop-only {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
-
-  .header-container {
-    padding-top: 164px;
-  }
-}
 
 /* Media Queries*/
 
@@ -349,6 +335,85 @@ footer {
   }
 }
 
+/*navbar is collapsed on mobile, footer and delivery banner stacked */
+@media (max-width: 500px) {
+  .header-container {
+    padding-top: 116px;
+  }
+
+  body {
+    height: calc(100vh - 116px);
+  }
+
+  #delivery-banner {
+    visibility: 100px;
+  }
+
+ ul.info-items {
+    padding-left: 0;
+  }
+
+  ul.info-items li {
+    display: list-item;
+    padding-left: 0;
+    padding-right: 350px;
+    text-align: center !important;
+  }
+  
+  footer {
+    height: 140px;
+  }
+
+.container {
+    margin-bottom: 200px;
+}
+
+.container-fluid{
+    margin-bottom: 400px;
+}
+
+.header-container {
+    padding-top: 40px;
+}
+
+  .display-4.logo-font.text-black {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    padding: 0.15rem;
+  }
+
+  .nav-link i.fa-lg {
+    font-size: 1rem;
+  }
+
+  .navbar-toggler {
+    padding: 0.6rem 0.6rem;
+    font-size: 1rem;
+  }
+
+  #delivery-banner h4 {
+    font-size: 0.9rem;
+  }
+
+  .btn.btn-outline-black.rounded-0,
+  .btn.btn-black.rounded-0 {
+    padding: 0.375rem 0.375rem;
+  }
+
+  .btn.btn-outline-black.rounded-0.btn-lg,
+  .btn.btn-black.rounded-0.btn-lg {
+    padding: 0.375rem 0.375rem;
+    font-size: 0.75rem;
+  }
+
+  .increment-qty,
+  .decrement-qty {
+    padding: 0.25rem 0.5rem !important;
+  }
+}
+
 /* fixed top navbar only on medium and up */
 @media (min-width: 992px) {
   .fixed-top-desktop-only {
@@ -360,12 +425,12 @@ footer {
   }
 
   .header-container {
-    padding-top: 164px;
+    padding-top: 200px;
   }
 }
 
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
+/*navbar is collapsed on mobile, footer and delivery banner stacked */
+@media (max-width: 320px) {
   .header-container {
     padding-top: 116px;
   }
@@ -375,29 +440,78 @@ footer {
   }
 
   #delivery-banner {
-    visibility: hidden;
+    visibility: 200px;
   }
+
+ ul.info-items {
+    padding-left: 0;
+    font-size: 13px
+  }
+
+  ul.info-items li {
+    display: list-item;
+    padding-left: 0;
+    padding-right: 400px;
+    text-align: center !important;
+  }
+  
   footer {
-    visibility: hidden;
+    height: 140px;
+    font-size: 13px
+  }
+
+  .container {
+    margin-bottom: 160px;
+}
+
+.container-fluid{
+    margin-bottom: 160px;
+}
+
+.header-container {
+    padding-top: 160px;
+}
+
+.display-4.logo-font.text-black {
+    font-size: 2rem;
+  }
+
+  .nav-link {
+    padding: 0.15rem;
+  }
+
+  .nav-link i.fa-lg {
+    font-size: 1rem;
+  }
+
+  .navbar-toggler {
+    padding: 0.6rem 0.6rem;
+    font-size: 1rem;
+  }
+
+  #delivery-banner h4 {
+    font-size: 0.9rem;
+  }
+
+  .btn.btn-outline-black.rounded-0,
+  .btn.btn-black.rounded-0 {
+    padding: 0.375rem 0.375rem;
+  }
+
+  .btn.btn-outline-black.rounded-0.btn-lg,
+  .btn.btn-black.rounded-0.btn-lg {
+    padding: 0.375rem 0.375rem;
+    font-size: 0.75rem;
+  }
+
+  .increment-qty,
+  .decrement-qty {
+    padding: 0.25rem 0.5rem !important;
   }
 }
 
-@media (min-width: 992px) {
-  .fixed-top-desktop-only {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
-  }
-
-  .header-container {
-    padding-top: 164px;
-  }
-}
-
-/* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
+/*navbar is collapsed on mobile, footer and delivery banner stacked */
+@media (max-width: 319px) {
   .header-container {
     padding-top: 116px;
   }
@@ -406,7 +520,40 @@ footer {
     height: calc(100vh - 116px);
   }
 
-  .display-4.logo-font.text-black {
+  #delivery-banner {
+    visibility: 200px;
+  }
+
+ ul.info-items {
+    padding-left: 0;
+    font-size: 13px
+  }
+
+  ul.info-items li {
+    display: list-item;
+    padding-left: 0;
+    padding-right: 450px;
+    text-align: center !important;
+  }
+  
+  footer {
+    height: 150px;
+    font-size: 13px
+  }
+
+  .container {
+    margin-bottom: 180px;
+}
+
+.container-fluid{
+    margin-bottom: 180px;
+}
+
+.header-container {
+    padding-top: 180px;
+}
+
+.display-4.logo-font.text-black {
     font-size: 2rem;
   }
 
