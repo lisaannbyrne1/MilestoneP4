@@ -26,7 +26,7 @@ SECRET_KEY = '4_9%#^jzd#2t!qp3eelj1plxtt8t2xf5mbm*m5i6*#q8#2le@g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['fandvsupplies.herokuapp.com', 'localhost', '8000-daba22dd-4e45-4759-bcd5-9fee77dc562f.ws-eu01.gitpod.io']
+ALLOWED_HOSTS = ['fandvsupplies.herokuapp.com', 'localhost']
 
 
 # Application definition

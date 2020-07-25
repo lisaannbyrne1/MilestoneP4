@@ -1,6 +1,5 @@
 html {
   height: 100%;
-  position: relative;
 }
 
 body {
@@ -13,10 +12,14 @@ body {
 
 .container {
     margin-bottom: 60px;
+    position: relative;
+    min-height: 100vh;
 }
 
 .container-fluid{
     margin-bottom: 60px;
+    position: relative;
+    min-height: 100vh;
 }
 
 
@@ -274,6 +277,17 @@ a.category-badge > span.badge:hover {
 
 /*--Footer--*/
 
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    background-color: black;
+    color: white;
+}
+
+/*--Footer-
+
 footer {
   background-color: black;
   color: white;
@@ -289,7 +303,7 @@ footer {
   list-style-type: none;
   padding-left: 0px;
 }
-
+-*/
 /*--Footer Socials--*/
 
 .fa {
@@ -326,16 +340,24 @@ footer {
   color: white;
 }
 
-/* Media Queries*/
 
-/* Slightly larger container on xl screens */
+/* Media Queries */
+
+
+
+
+
+
+/* Media Queries
+
+/* Slightly larger container on xl screens 
 @media (min-width: 1200px) {
   .container {
     max-width: 70%;
   }
 }
 
-/*navbar is collapsed on mobile, footer and delivery banner stacked */
+/*navbar is collapsed on mobile, footer and delivery banner stacked
 @media (max-width: 500px) {
   .header-container {
     padding-top: 116px;
@@ -414,7 +436,7 @@ footer {
   }
 }
 
-/* fixed top navbar only on medium and up */
+/* fixed top navbar only on medium and up
 @media (min-width: 992px) {
   .fixed-top-desktop-only {
     position: fixed;
@@ -429,7 +451,7 @@ footer {
   }
 }
 
-/*navbar is collapsed on mobile, footer and delivery banner stacked */
+/*navbar is collapsed on mobile, footer and delivery banner stacked
 @media (max-width: 320px) {
   .header-container {
     padding-top: 116px;
@@ -457,7 +479,7 @@ footer {
   
   footer {
     height: 140px;
-    font-size: 13px
+    font-size: 13px;
   }
 
   .container {
@@ -510,7 +532,7 @@ footer {
   }
 }
 
-/*navbar is collapsed on mobile, footer and delivery banner stacked */
+/*navbar is collapsed on mobile, footer and delivery banner stacked
 @media (max-width: 319px) {
   .header-container {
     padding-top: 116px;
@@ -590,3 +612,4 @@ footer {
     padding: 0.25rem 0.5rem !important;
   }
 }
+*/
