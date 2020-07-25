@@ -1,39 +1,75 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# F & V Supplies Product Sales Website
 
-Welcome Lisa Byrne,
+## Stream Four Project: Full Stack with Django Milestone Project
+This full stack website is an e-commerce store which allows users to browse and purchase products from a fictional online store. The stores target audience is veterinary practitioners and farmers. 
+There is also functionality to allow the store owner to edit, delete and update the products on the website.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+### Demo
+A live demo can be found <a href="https://fandvsupplies.herokuapp.com/">here.</a>
 
-## Gitpod Reminders
+### UX
+#### User stories
+Navigation & Searching
+•	As a shopper I want to be able to view of list of all products sold on the site.
+•	As a shopper I want to be able to view the product details including price.
+•	As a shopper I want to be able to easily see the total of my shopping cart. 
+•	As a shopper I want to be able to search for products by category, name or description. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Account & Checkout
+•	As a site user I want to be able to register a new account and receive a confirmation email of my registration.
+•	As a site user I want to be able edit my account details easily.
+•	As a site user I want to be able to see a list of products I have purchased.
+•	As a site user I want to be able to purchase products without setting up an account. 
 
-`python3 -m http.server`
+Store Administrator
+•	As the store administrator I want to be able to edit products.
+•	As the store administrator I want to be able to delete products.
+•	As the store administrator I want to be able to add new products.
 
-A blue button should appear to click: *Make Public*,
+#### Strategy
+The goal of this website is to allow farmers and vets to easily purchase necessary supplies without having to come into the store. It also gives them the opportunity to browse the products in store before their visit. The navigation is clear to assist them in finding what products they want quickly and easily. The various search areas should allow for additional quick searches. 
 
-Another blue button should appear to click: *Open Browser*.
+#### Scope
+The store is aimed at farmers and vets but also anyone who needs farming related products.  The navigation is clear and therefore should allow for any interested user find the products they are looking for. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+#### Structure
+The structure of this site is set up using apps to handle the various elements.  For example, the bag app allows for users to add products to their bag.  The checkout app then allows the user to purchase the products.  The profiles app allows the user to set up and manage their profile.  The products app allows for the user to view the products available and also allows the site administrator to edit, add and delete products from the site. 
+The layout of this site starts with a landing page which includes links to the various menu options across the site and also access to the products, shopping bag and account.  The landing page provides all the information that the user should need to navigate the site. 
 
-A blue button should appear to click: *Make Public*,
+#### Skeleton
+Desktop and mobile wireframes have been created <a href="https://github.com/lisaannbyrne1/ MilestoneP4-F-V_Supplies/blob/master/static/wireframe/wireframes.pdf">click here</a>
 
-Another blue button should appear to click: *Open Browser*.
+#### Surface
+The colour scheme of the site is white and black. The home page includes a large jumbotron farming image to represent the target audiences of the site. The colour scheme was chosen to form a minimalist and uniform look through out the site. 
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+#### Technologies
+* HTML
+* CSS/Bootstrap (4.4.1)
+* JavaScript/jQuery
+* Python + Flask
+* Django
+* Stripe payments
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Features
+The features on this site include the ability for users to purchase products through a checkout app.  The users have the option of purchasing with or without an account. If the user creates an account, they will be able to view their purchase history on their profile and update their delivery details. Another feature of the site is that it allows the owner to log in using a superuser account and add, edit, and remove products from the site.  
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+#### Features Left to Implement
+In the future, I would like to include payment confirmation emails to users rather then just on-screen confirmation. I would also like to implement a quantity remaining notification for products on the site. As this site is fictional, I have left the links for the social media blank but should this become a real site someday these socials can be populated. Finally, a feature left to add would be to increase the number of products that is available online via the site. 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+#### Testing
+This site was tested against criteria set out in the user stories and the criteria was met in each case. While testing I noticed that the footer was appearing over the contents at the bottom of each page, to fix this I needed to add a bottom margin to the container. During testing I noticed the images were slow to load and very large, I resized the images using tinypng.com. During testing of registration of new accounts, it was highlighted that when I originally set up my Django site using the name example.com I had forgotten to change it.  I was able to change it in the Django admin panel to the name of my site. Finally, I tested the site on mobile and on a various other website browsers a small number of small changes were required to the media queries as a result of these tests. 
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+#### Deployment
+The website was deployed to Heroku from GitHub and static files were stored on AWS S3.  As part of set up on AWS I had to generate a security policy for the bucket to be accessed. Static files including images were stored on AWS and accessed by Heroku through the build, it will search my apps and project folders for static files.  Images are also stored on AWS through direct upload to AWS. 
 
---------
+### Credits
+#### Content 
+The data contents of this app and database is fictional for example purposes.
 
-Happy coding!
+#### Media
+The images for this site were obtained from google searches. 
+
+#### Acknowledgements
+I received inspiration from several sources for this project, they included feedback from users both internal and external to my current employer.   I also took inspiration for this project from areas covered in the course and in the mini projects. 
