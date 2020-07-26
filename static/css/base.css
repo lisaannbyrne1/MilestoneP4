@@ -13,13 +13,11 @@ body {
 .container {
     margin-bottom: 60px;
     position: relative;
-    min-height: 100vh;
 }
 
 .container-fluid{
     margin-bottom: 60px;
     position: relative;
-    min-height: 100vh;
 }
 
 
@@ -286,12 +284,12 @@ a.category-badge > span.badge:hover {
     color: white;
 }
 
-/*--Footer-
+/*--Footer--*/
 
 footer {
   background-color: black;
   color: white;
-  position: fixed;
+  position: relative;
   bottom: 0;
   width: 100%;
   padding-top: 10px;
@@ -303,7 +301,7 @@ footer {
   list-style-type: none;
   padding-left: 0px;
 }
--*/
+
 /*--Footer Socials--*/
 
 .fa {
