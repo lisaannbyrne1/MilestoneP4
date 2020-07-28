@@ -10,7 +10,7 @@ A live demo can be found <a href="https://fandvsupplies.herokuapp.com/">here.</a
 ### UX
 #### User stories
 ##### Navigation & Searching
-As a shopper I want to be able to view of list of all products sold on the site.
+As a shopper I want to be able to view a list of all products sold on the site.
 
 As a shopper I want to be able to view the product details including price.
 
@@ -64,7 +64,7 @@ The colour scheme of the site is white and black. The home page includes a large
 The features on this site include the ability for users to purchase products through a checkout app.  The users have the option of purchasing with or without an account. If the user creates an account, they will be able to view their purchase history on their profile and update their delivery details. Another feature of the site is that it allows the owner to log in using a superuser account and add, edit, and remove products from the site.  
 
 #### Features Left to Implement
-In the future, I would like to include a quick link to add to cart from the products page. I would also like to implement a quantity remaining notification for products on the site. As this site is fictional, I have left the links for the social media blank but should this become a real site someday these socials can be populated. Finally, a feature left to add would be to increase the number of products that is available online via the site. 
+In the future, I would like to include a quick link to add to cart from the products page. I would also like to implement a quantity remaining notification for products on the site. As this site is fictional, I have left the links for the social media blank but should this become a real site someday these links can be populated. Finally, a feature left to add would be to increase the number of products that is available online via the site. 
 
 #### Testing
 This site was tested against criteria set out in the user stories and the criteria was met in each case. While testing I noticed that the footer was appearing over the contents at the bottom of each page, to fix this I needed to add a bottom margin to the container. During testing I noticed the images were slow to load and very large, I resized the images using tinypng.com. During testing of registration of new accounts, it was highlighted that when I originally set up my Django site using the name example.com I had forgotten to change it.  I was able to change it in the Django admin panel to the name of my site. Finally, I tested the site on mobile and on a various other website browsers a small number of small changes were required to the media queries as a result of these tests. 
