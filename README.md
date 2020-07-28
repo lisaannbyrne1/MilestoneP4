@@ -9,22 +9,30 @@ A live demo can be found <a href="https://fandvsupplies.herokuapp.com/">here.</a
 
 ### UX
 #### User stories
-Navigation & Searching
-•	As a shopper I want to be able to view of list of all products sold on the site.
-•	As a shopper I want to be able to view the product details including price.
-•	As a shopper I want to be able to easily see the total of my shopping cart. 
-•	As a shopper I want to be able to search for products by category, name or description. 
+##### Navigation & Searching
+As a shopper I want to be able to view of list of all products sold on the site.
 
-Account & Checkout
-•	As a site user I want to be able to register a new account and receive a confirmation email of my registration.
-•	As a site user I want to be able edit my account details easily.
-•	As a site user I want to be able to see a list of products I have purchased.
-•	As a site user I want to be able to purchase products without setting up an account. 
+As a shopper I want to be able to view the product details including price.
 
-Store Administrator
-•	As the store administrator I want to be able to edit products.
-•	As the store administrator I want to be able to delete products.
-•	As the store administrator I want to be able to add new products.
+As a shopper I want to be able to easily see the total of my shopping cart. 
+
+As a shopper I want to be able to search for products by category, name or description. 
+
+##### Account & Checkout
+As a site user I want to be able to register a new account and receive a confirmation email of my registration.
+
+As a site user I want to be able edit my account details easily.
+
+As a site user I want to be able to see a list of products I have purchased.
+
+As a site user I want to be able to purchase products without setting up an account. 
+
+##### Store Administrator
+As the store administrator I want to be able to edit products.
+
+As the store administrator I want to be able to delete products.
+
+As the store administrator I want to be able to add new products.
 
 #### Strategy
 The goal of this website is to allow farmers and vets to easily purchase necessary supplies without having to come into the store. It also gives them the opportunity to browse the products in store before their visit. The navigation is clear to assist them in finding what products they want quickly and easily. The various search areas should allow for additional quick searches. 
