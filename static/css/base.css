@@ -397,13 +397,13 @@ footer {
     padding: 0.25rem 0.5rem !important;
   }
   
-  .ul.info-items li {
-      padding-left: 0px;
-      display: inline;
-      font-size: 0.75rem;
-  }
+ul.info-items li {
+    display: block;
+    padding-left: 0px;
+    }
 
-  .ul.info-items {
-      min-width: 0px;
-  }
+
+ul.info-items {
+    padding-left: 0px;  
+    }       
 }
